@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Atvds CSS/calculadora.css">
+    <script src="C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds Js\calculador.js"></script>
+    <link rel="stylesheet" href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>CALCULADORA SIMPLES</h1>
+    <form action="#">   
+                1º valor:
+                <input id="n1" type="text" /> <br>
+                2º valor:
+                <input id="n2" type="text" /> <br> 
+                <label for="Operação">Operação: </label>
+                <select id="op">
+                    <option value="+">+ (soma)</option>
+                    <option value="-">- (subtração)</option>
+                    <option value="*">* (multiplicação)</option>
+                    <option value="/">/ (divisão)</option>
+                </select>
+                    <input type="button" value="Calcular" onclick="operar()"/>        
+    </form>
+</body>
+</html>
