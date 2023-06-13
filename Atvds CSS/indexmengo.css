@@ -1,0 +1,135 @@
+@charset "UTF - 8";
+
+:root{
+    --cor-principal: rgb(255, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bruno Ace SC', cursive; 
+}
+header{
+    background-color: red;
+}
+body{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+    min-width: 70px;
+}
+.logo{
+    margin: 15px;
+    width: 10%;
+}
+section.barra-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociais{
+    display: flex;
+    width: 100%;
+}
+.midias-sociais{
+    display: block;
+    width: 10%;
+}
+.titulo h1{
+    font-size: 30pt;
+}
+.banner img{
+    width: 100%;
+}
+.redes-sociais a{
+    width: 25%;
+}
+.redes-sociais img{
+    width: 100%;
+}
+.linhaPreta{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+.linhaVermelha{
+    box-sizing: border-box;
+    width: 100%;
+    border: 4px red;
+    margin: 5px 0px;
+}
+.menu-principal ul{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu-principal ul li{
+    list-style-type: none;
+    margin: 16px;
+}
+.menu-principal ul li a{
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 15%;
+}
+.menu-principal ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+    border-color: rgb(204, 66, 66);
+    color: white;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.main{
+    display: flex;
+}
+.esquerda{
+    width: 50%;
+}
+.esquerda img{
+    box-sizing: border-box;
+    width: 70%;
+    padding: 30px;
+}
+.direita{
+    width: 50%;
+}
+.direita form{
+    display: grid;
+    margin: 60px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#claro{
+    display: none;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16pt;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 108, 219);
+    border-color: rgb(11, 108, 219);
+}
+button #claro, #escuro{
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16pt;
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 11, 11);
+    border-color: rgb(0, 0, 0) ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-size: 20pt;
+    background-color: var(--cor-principal);
+    color: white;
+}
