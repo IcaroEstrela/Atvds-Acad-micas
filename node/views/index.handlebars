@@ -1,0 +1,49 @@
+<head>
+   <link rel="stylesheet" href="/css/style.css">
+   <script src="/js/index.js"></script>
+   <link rel="stylesheet" href = "https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap">
+</head>
+<body>
+    <header>
+        <section class="barra-principal">
+            <div class="logo">
+                <img src="\img\819.png" alt="logo principal">
+            </div>
+            <div class="titulo">
+                <h1>Clube de Regatas do Flamengo</h1>
+            </div>
+            <div>
+                <button id="escuro" value="escuro" onclick="return modo(this.value)">Escuro</button>
+                <button id="claro" value="claro" onclick="return modo(this.value)">Claro</button>
+            </div>
+        </section>
+        <div class="linhaPreta"></div>
+        <div class="linhaVermelha"></div>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="\img\95409483_1113859692312779_1527357895933427712_n.jpg" alt="">
+        </section>
+        <section class="main">
+            <article class="esquerda">
+                <img src="\img\gabriel-barbosa-36.png" alt="">
+            </article>
+            <aside class="direita">
+                <form action="/bemvindo" method="post">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="telefone">Telefone: </label>
+                    <input type="text" name="telefone" id="telefone">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email">
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="endereco">
+                    <button type="submit">CADASTRAR</button>
+                </form>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        &copy; Copyright Flamengo 2023.2
+    </footer>
+</body>

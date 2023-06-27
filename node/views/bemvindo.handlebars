@@ -1,0 +1,32 @@
+<head>
+    <link rel="stylesheet" href="/css/bemvindo.css">
+    <link rel="stylesheet" href = "https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap">
+</head>
+<body>
+    <h1 class="titulo">BEM VINDO AO MAIOR TIME DO MUNDO</h1>
+    <br>
+    <br>
+    {{#each cadastros}}
+    <div class="dados">
+        <div>
+            <span>Nome:</span>
+            <span>{{nome}}</span>
+        </div>
+        <div>
+            <span>Telefone:</span>
+            <span>{{telefone}}</span>
+        </div>
+        <div>
+            <span>Email:</span>
+            <span>{{email}}</span>
+        </div>
+        <div>
+            <span>Endereco:</span>
+            <span>{{endereco}}</span>
+        </div>
+        <br>
+    </div>
+    {{/each}}
+</body>
+
+
