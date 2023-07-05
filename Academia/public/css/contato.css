@@ -81,3 +81,7 @@ article{
     justify-content: center;
     align-items: center;
 }
+.input-user{
+    font-size: calc(1px + 1vw);
+    border-radius: 5px;
+}

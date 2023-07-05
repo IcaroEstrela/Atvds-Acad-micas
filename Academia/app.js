@@ -12,7 +12,7 @@ app.set('views', './views');
 app.use(express.static('public'));
 
 
-app.get('/index', function(req, res){
+app.get('/', function(req, res){
     res.render('index');
 });
 app.get('/quemsomos', function(req, res){
@@ -28,6 +28,6 @@ app.get('/horarios', function(req, res){
     res.render('horarios');
 });
 
-app.listen(7777, function(){
-    console.log('http://localhost:7777');
+app.listen(8090, function(){
+    console.log('http://localhost:8090');
 })
