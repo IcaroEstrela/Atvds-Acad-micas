@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/lista.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,18 +26,25 @@
     </nav>
     <div class="linha"></div>
     </header>
-    <main>
-        <section>
-             <section class="main">
-        <article class="esquerda">
-             <img src="/img/image.jpg" alt="">
-        </article>
-        <aside class="direita">
-            <p>ﾠﾠﾠﾠﾠﾠﾠSegunda à Sexta 05h30 ás 22h</p>
-            <p>ㅤﾠﾠﾠﾠﾠﾠﾠﾠSábado: 07h às 14h</p>
-            <p>ﾠﾠﾠﾠﾠﾠDomingos e Feriados: 08h às 12h</p>
-            <br>
-         </aside>
-        </section>
-    </main>
-    </body>
+    {{#each cadastros}}
+    <div class="dados">
+        <div>
+            <span>Nome:</span>
+            <span>{{nome}}</span>
+        </div>
+        <div>
+            <span>Telefone:</span>
+            <span>{{telefone}}</span>
+        </div>
+        <div>
+            <span>Email:</span>
+            <span>{{email}}</span>
+        </div>
+        <div>
+            <span>Endereco:</span>
+            <span>{{endereco}}</span>
+        </div>
+        <br>
+    </div>
+    {{/each}}
+</body>

@@ -1,12 +1,12 @@
 function validarmsg() {
-    let nome = formContato.nome.value;
+    let nome = document.getElementById('nome');
     let email = formContato.email.value;
     let tel = formContato.tel.value;
     let descricao = formContato.descricao.value
 
     if (nome == "") {
         alert(`Por gentileza digite o seu nome!`)
-        formContato.nome.focus()
+        formContato.value.focus()
         return false;
     } else
         if (email == "") {

@@ -28,6 +28,20 @@ app.get('/horarios', function(req, res){
     res.render('horarios');
 });
 
+app.post('/lista',function(req, res){
+    Aknome = req.body.nome
+    Akidade = req.body.idade
+    Aktelefone = req.body.telefone
+    Akemail = req.body.email
+    Akendereco = req.body.endereco
+
+    usuario = {"nome":Aknome, "idade":Akidade, "telefone":Aktelefone, "email":Akemail, "endereco":Akendereco
+    }
+    cadastros.push(usuario)
+
+    res.render('lista', {cadastros})
+})
+
 app.listen(8090, function(){
     console.log('http://localhost:8090');
 })

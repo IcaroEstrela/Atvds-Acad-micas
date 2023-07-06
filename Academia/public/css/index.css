@@ -81,6 +81,10 @@ nav a:hover{
     margin: 70px;
     color: rgb(7, 60, 129);
 }
+.direita img{
+    width: 658.500px;
+    margin-left: 65px;
+}
 footer{
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;

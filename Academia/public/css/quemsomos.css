@@ -9,10 +9,14 @@ h1{
     color: rgb(7, 60, 129);
 }
 .texto{
-    
+    width: 70%;
     font-size: calc(10pt + 1vw);
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(8, 47, 99);
+}
+.text{
+    display: flex;
+    justify-content: center;
 }
 .insignes{
     font-size: calc(5pt + 1vw);

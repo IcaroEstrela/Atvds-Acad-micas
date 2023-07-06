@@ -55,36 +55,14 @@ nav a:hover{
     border: 2px solid rgb(7, 60, 129);
     margin: 13px 0px 13px 0px;
 }
-.main{
-    display: flex;
-}
-.esquerda{
-    width: 50%;
-}
-.esquerda img {
-    box-sizing: border-box;
-    width: 50%;
-    padding: 30px;
-}
-.direita{
-    width: 50%;
-}
-.direita form{
+.dados{
+    color: #000;
+    text-shadow: 
+             -1px -1px 0px #FFF, 
+             -1px 1px 0px #FFF,                    
+              1px -1px 0px #FFF,                  
+              1px 0px 0px #FFF;
+    font-size: calc(6pt + 1vw);
     font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(7, 60, 129);
-    display: grid;
-    margin: 40px;
-    border-radius: 12px;
-}
-article{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.input-user{
-    font-size: calc(1px + 1vw);
-    border-radius: 5px;
-}
-button{
-    height: 20px;
+    color: rgb(8, 47, 99);
 }
