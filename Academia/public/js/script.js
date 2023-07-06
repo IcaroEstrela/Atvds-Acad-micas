@@ -1,34 +1,21 @@
-function validarmsg() {
-    let nome = document.getElementById('nome');
-    let email = formContato.email.value;
-    let tel = formContato.tel.value;
-    let descricao = formContato.descricao.value
+var nome = document.getElementById('nome').value;
+var email = document.getElementById('email').value;
+var tel = document.getElementById('tel').value;
+var descricao = document.getElementById('descricao').value;
 
+function validarmsg(){
     if (nome == "") {
-        alert(`Por gentileza digite o seu nome!`)
-        formContato.value.focus()
-        return false;
+        alert(`Por gentileza digite seu nome!`)
     } else
         if (email == "") {
-            alert("Por gentileza digite o seu Email!")
-            formContato.email.focus()
-            return false;
+            alert('Por gentileza digite o seu Email!')
         } else
             if (tel == "") {
-                alert("Por gentileza digite o seu Telefone!")
-                formContato.tel.focus()
-                return false;
+                alert('Por gentileza digite o seu Telefone!')
             } else 
-            if (descricao == ""){
-                alert("Por gentileza digite a mensagem que deseja enviar!")
-                formContato.descricao.focus()
-                return false;
-            }else
-                alert(`Olá ${nome} sua mensagem foi enviada com SUCESSO!`)
-    }
-function alterarTexto() {
-    let texto = document.getElementById('title')
-    let nome = formContato.nome.value
-    texto.innerHTML = `Olá ${nome}, Bom dia!`
-    return false;
+                if (descricao == ""){
+                    alert('Por gentileza digite a mensagem que deseja enviar!')
+                }else
+                    alert(`Olá maromba sua mensagem foi enviada com SUCESSO!`)
 }
+
