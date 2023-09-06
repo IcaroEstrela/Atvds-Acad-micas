@@ -1,0 +1,14 @@
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\bin\Debug\net7.0\Atvds C#.exe
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\bin\Debug\net7.0\Atvds C#.deps.json
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\bin\Debug\net7.0\Atvds C#.runtimeconfig.json
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\bin\Debug\net7.0\Atvds C#.dll
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\bin\Debug\net7.0\Atvds C#.pdb
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.AssemblyInfoInputs.cache
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.AssemblyInfo.cs
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.csproj.CoreCompileInputs.cache
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.dll
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\refint\Atvds C#.dll
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.pdb
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\Atvds C#.genruntimeconfig.cache
+C:\Users\icaro\OneDrive\Documentos\GitHub\Atvds-Acad-micas\Atvds C#\obj\Debug\net7.0\ref\Atvds C#.dll
